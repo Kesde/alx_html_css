@@ -1,0 +1,51 @@
+  body {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    min-height: 100vh; /* Full height of the viewport */
+  }
+ main {
+    display: flex-auto; /* Allow main to grow and shrink */
+    flex-direction: column; /* Stack children vertically */
+    flex: 1; /* Take up available space */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+  }
+ main {
+    display: flex;
+  }
+
+  article {
+    flex: 2; /* Takes 2 parts of the available space */
+    background-color: #f0f0f0dc;
+    padding: 20px;
+  }
+
+  aside {
+    flex: 1; /* Takes 1 part of the available space */
+    background-color: #e0e0e0;
+    padding: 20px;
+  }
+    body {
+    margin: 0;
+    font-family: sans-serif;
+    height: 100vh; /* Full viewport height */
+  }
+
+  main {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+  }
+
+  article {
+    flex: 2;
+    background-color: #f0f0f0;
+    padding: 20px;
+    overflow-y: auto; /* Add vertical scroll if needed */
+  }
+
+  aside {
+    flex: 1;
+    background-color: #e0e0e0;
+    padding: 20px;
+    overflow-y: auto; /* Add vertical scroll if needed */
+  }
