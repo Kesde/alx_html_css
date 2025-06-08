@@ -49,3 +49,13 @@
     padding: 20px;
     overflow-y: auto; 
   }
+  .works_on_smartphone {
+  padding: 10px;
+  font-size: 1rem;
+}
+@media (max-width: 600px) {
+  .works_on_smartphone {
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+}
