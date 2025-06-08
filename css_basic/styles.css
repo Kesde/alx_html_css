@@ -59,3 +59,19 @@
     text-align: center;
   }
 }
+h1 {
+  color: #FF5733; /* Use a hex code, color name, or rgb/rgba value */
+}
+
+/* Change the color of h2 headings */
+h2 {
+  color: #4CAF50;
+}
+
+/* Change the color of h3 headings */
+h3 {
+  color: #007BFF;
+}
+body {
+  background-color: #f0f0f0c2; /* Light gray background */
+}
