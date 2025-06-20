@@ -1,0 +1,15 @@
+.box {
+  background-color: rgb(232, 242, 232);
+  padding: 20px; 
+}
+
+header {
+  display: flex;
+  flex-direction: column; 
+  gap: 10px; 
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
