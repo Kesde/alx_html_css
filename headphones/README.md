@@ -15,7 +15,7 @@ Improving accessibility by using proper tags, attributes, and contrast
 
 Debugging layout and design issues for cross-device compatibility
 
- Project Features
+Project Features
 Fully responsive design (mobile-first)
 
 Clean, accessible HTML structure
