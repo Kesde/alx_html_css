@@ -1,0 +1,152 @@
+header {
+  background-color: #101820;
+  color: white;
+  padding: 20px 40px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.logo img {
+  width: 40px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #ff6f61;
+}
+
+.cta-button .btn {
+  background-color: #ff6f61;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.cta-button .btn:hover {
+  background-color: #e65a4f;
+}
+
+.results {
+  background-color: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#what-we-do h2,
+#results h2 {
+  font-size: 32px;
+  color: #101820;
+  margin-bottom: 20px;
+}
+
+#what-we-do p,
+#results p {
+  font-size: 16px;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #444;
+}
+#contact {
+  background-color: #f6f6f6;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 32px;
+  color: #101820;
+  margin-bottom: 30px;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form label {
+  font-weight: 600;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.contact-form button {
+  background-color: #ff6f61;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #e65a4f;
+}
+
+.contact-note {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #333;
+}
+
+.contact-note a {
+  color: #ff6f61;
+  text-decoration: none;
+}
+
+.contact-note a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #101820;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
