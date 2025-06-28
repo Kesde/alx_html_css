@@ -150,3 +150,18 @@ footer {
   padding: 20px;
   font-size: 14px;
 }
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ff6f61;
+}

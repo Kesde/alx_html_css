@@ -77,7 +77,6 @@ header {
   margin: 0 auto;
   color: #444;
 }
-
 #contact {
   background-color: #f6f6f6;
   padding: 60px 20px;
@@ -150,4 +149,19 @@ footer {
   text-align: center;
   padding: 20px;
   font-size: 14px;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ff6f61;
 }
